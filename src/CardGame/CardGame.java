@@ -21,6 +21,7 @@ public class CardGame {
         //creates random
         Random random = new Random();
         
+        //this is a change
         for (int i = 0; i < hand.length; i++) {
             int value = random.nextInt(13) + 1;
             String suit = Card.SUITS[random.nextInt(4)];
